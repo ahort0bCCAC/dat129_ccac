@@ -1,0 +1,2 @@
+# each line represents a pattern that will NOT be tracked, meaning it won't be included in your staging ground if you use the git add .structure
+dontpushme/
