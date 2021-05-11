@@ -15,4 +15,5 @@ https://www.ssa.gov/oact/babynames/limits.html
 - The unique name count among males was 42,054 with 179,381,597 occurences.
 
 Among the most popular names each year, in 140 years, only 19 unique names rose to the top.  Eleven unique names among females and eight among males.
-The most popular name overall was Mary which held the top spot in 76 years.   Tied for number two overall are John and Michael each holding top spot in 44 years.
+Although Mary held the top spot the most often at 76 years, in overall occurences Mary ranked #6.   Tied for second most often at number one, John and Michael each held the top spot in 44 years. James, the overall most popular name held the top spot in 13 years.
+
