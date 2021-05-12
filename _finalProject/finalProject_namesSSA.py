@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[252]:
+# In[6]:
 
 
 from csv import reader
@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# In[253]:
+# In[7]:
 
 
 # ============================================================================================================
@@ -45,7 +45,7 @@ def close_DB_Resources(dbconn, cursor):
         print('Error occurred closing DB resources.', error)
 
 
-# In[254]:
+# In[8]:
 
 
 # ============================================================================================================
@@ -197,7 +197,7 @@ def load_ssaNameData_table(root):
 # deleted and reloaded to avoid duplication.
 
 
-# In[255]:
+# In[9]:
 
 
 # ============================================================================================================
@@ -329,7 +329,7 @@ def qry7(namesList):
     return qrySQL
 
 
-# In[256]:
+# In[10]:
 
 
 # ===================
@@ -355,7 +355,7 @@ def qry1_graph(query, namesList):
     plt.title('Occurences by year and name - Graph')
 
 
-# In[257]:
+# In[11]:
 
 
 # ===========================================
@@ -386,7 +386,7 @@ def action(action=0):
         drop_table('genders')
 
 
-# In[258]:
+# In[12]:
 
 
 # ===========================================
@@ -434,7 +434,7 @@ def qryNames(listNumber):
     return listNames
 
 
-# In[259]:
+# In[13]:
 
 
 # ===============================================
@@ -445,7 +445,7 @@ def qryNames(listNumber):
 # ===============================================
 
 
-# In[263]:
+# In[14]:
 
 
 # ==================================
@@ -486,7 +486,7 @@ close_DB_Resources(dbconn, cursor)
 # add error handling if files don't exist
 
 
-# In[264]:
+# In[15]:
 
 
 # ==========================================================
@@ -496,7 +496,7 @@ close_DB_Resources(dbconn, cursor)
 # to increase or decrease the number of rows displayed.
 
 
-# In[265]:
+# In[16]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -505,7 +505,7 @@ qry_table(qry6,['All'])
 close_DB_Resources(dbconn, cursor)
 
 
-# In[266]:
+# In[17]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -514,7 +514,7 @@ qry_table(qry5,['All'])
 close_DB_Resources(dbconn, cursor)
 
 
-# In[267]:
+# In[18]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -524,7 +524,7 @@ qry_table(qry4,['All'])
 close_DB_Resources(dbconn, cursor)
 
 
-# In[268]:
+# In[19]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -533,7 +533,7 @@ qry_table(qry3,['All'],10)
 close_DB_Resources(dbconn, cursor)
 
 
-# In[269]:
+# In[20]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -542,38 +542,29 @@ qry_table(qry7,['All'],10)
 close_DB_Resources(dbconn, cursor)
 
 
-# In[270]:
+# In[21]:
 
 
-# =====================================
+# ============================================
 # run data queries for selected name/s
-# =====================================
-
-selectNames = qryNames(5)
-
-# === Query Names Lists ===
+# ============================================
+# Query Names Lists 
 # ============================================
 # 0: All
 # 1: Top Names each year
-# 2: Top Names overall
+# 2: Top 5 Names overall
 # 3: Bottom 5 overall among Top Ranked Names
 # 4: Class Names - SP21 Python 2 6pm W
 # 5: Top 5 Class Names
-# 6: Spelling Variations
-# 7: Other select name(s)
+# 6: Class Names - presentation group
+# 7: Spelling Variations
+# 8: Other select name(s)
 # ============================================
 
-
-# In[271]:
-
-
-dbconn,cursor = connect_to_db(dbName)
-print('\nTotal occurences by year and name')
-qry_table(qry1, selectNames)
-close_DB_Resources(dbconn, cursor)
+selectNames = qryNames(2)
 
 
-# In[272]:
+# In[23]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -582,7 +573,7 @@ qry_table(qry3, selectNames)
 close_DB_Resources(dbconn, cursor)
 
 
-# In[273]:
+# In[24]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -592,7 +583,7 @@ qry_table(qry2, selectNames)
 close_DB_Resources(dbconn, cursor)
 
 
-# In[274]:
+# In[25]:
 
 
 dbconn,cursor = connect_to_db(dbName)
@@ -600,7 +591,7 @@ qry1_graph(qry1, selectNames)
 close_DB_Resources(dbconn, cursor)
 
 
-# In[275]:
+# In[26]:
 
 
 dbconn,cursor = connect_to_db(dbName)
