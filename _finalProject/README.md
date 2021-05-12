@@ -25,6 +25,6 @@ The bottom 5 overall among the top ranked names just started to rise in the last
  ![Image](images/TotalOccurences_name.png) ![Image](images/Occurences_yr_name.png)  
  
  **_Top and bottom 5 total occurence among top ranked names_**  
-![Image](images/graph_overall_top5.png) ![Image](images/peakYr_Overal_top5.png)
+![Image](images/graph_overall_top5.png) ![Image](images/peakYr_overall_top5.png)
 ![Image](images/graph_TopRanked_bottom5.png) ![Image](images/peakYr_TopRanked_bottom5.png)
  
