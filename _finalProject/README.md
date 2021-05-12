@@ -18,6 +18,13 @@ https://www.ssa.gov/oact/babynames/limits.html
 ---
 In 140 years, only 19 unique names rose to the top each year, 11 unique names among females and 8 among males. Although Mary held the top spot the most often at 76 years, in overall occurences Mary ranked #6. Tied for second most often at number one, John and Michael each held the top spot in 44 years. James, the overall most popular name held the top spot in 13 years.
 
-
-
 The bottom 5 overall among the top ranked names just started to rise in the last 20 years, while the top 5 overall among the top ranked names hit their peak in the 1947 with the exception of Michael which peaked in 1957.
+
+ ![Image](images/TopRankCounts.png)  
+ 
+ ![Image](images/TotalOccurences_name.png) ![Image](images/Occurences_yr_name.png)  
+ 
+ **_Top and bottom 5 total occurence among top ranked names_**  
+![Image](images/graph_overall_top5.png) ![Image](images/peakYr_Overal_top5.png)
+![Image](images/graph_TopRanked_bottom5.png) ![Image](images/peakYr_TopRanked_bottom5.png)
+ 
