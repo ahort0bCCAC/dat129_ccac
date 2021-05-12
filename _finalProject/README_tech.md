@@ -30,4 +30,6 @@ I have built a function for easy selection of pre-defined name lists, and name l
 ## file attachments
 I am including a Jupyter notebook and the same file downloaded to a py file. Due to file qty and size I am not including source data which can be downloaded.
 
-
+## Next Steps
+With minor adjustments this program can be altered to read the state and/or territory data also available.
+Additional coding is needed for more user interactivity, like user input prompts for actions, pre-defined namelist selection and custom namelist building.
