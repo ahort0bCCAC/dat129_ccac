@@ -14,8 +14,10 @@ https://www.ssa.gov/oact/babynames/limits.html
 - The unique name count among females was 68,332 with 175,768,302 occurences.
 - The unique name count among males was 42,054 with 179,381,597 occurences.
 
- ![Image](images/Overall_gender.png)
+  ![Image](images/Overall.png)    ![Image](images/Overall_gender.png)
+---
+In 140 years, only 19 unique names rose to the top each year, 11 unique names among females and 8 among males. Although Mary held the top spot the most often at 76 years, in overall occurences Mary ranked #6. Tied for second most often at number one, John and Michael each held the top spot in 44 years. James, the overall most popular name held the top spot in 13 years.
 
-In 140 years, only 19 unique names rose to the top each year, eleven unique names among females and eight among males. Although Mary held the top spot the most often at 76 years, in overall occurences Mary ranked #6. Tied for second most often at number one, John and Michael each held the top spot in 44 years. James, the overall most popular name held the top spot in 13 years.
+
 
 The bottom 5 overall among the top ranked names just started to rise in the last 20 years, while the top 5 overall among the top ranked names hit their peak in the 1947 with the exception of Michael which peaked in 1957.
