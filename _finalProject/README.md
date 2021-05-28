@@ -3,7 +3,7 @@
 ## Social Security Administration Names database.
 
 The Social Security Adminsitration has name, gender and occurences* data available for each year of birth after 1879.
-This data is available in .txt files as national data (one file per year), state data (one file per state), and teritory data (one file per teritory).
+This data is available in .txt files as national data (one file per year), state data (one file per state), and territory data (one file per territory).
 I have chosen to work with national data for this project.  *To safeguard privacy, the SSA restricts the list of names to those with at least 5 occurrences.
 https://www.ssa.gov/oact/babynames/limits.html
 
@@ -29,6 +29,6 @@ The bottom 5 overall among the top ranked names just started to rise in the last
 ![Image](images/graph_TopRanked_bottom5.png) ![Image](images/peakYr_TopRanked_bottom5.png)
  
 ## Next Steps
-Further research on the subject may show how historical events and popculture can influence the popularity of a name.  Take my name for instance. My name spelled with an i is not as popular as spelled with a y, however both spellings started within a few years of each other.  Alissa was the most popular until around the 1960s and there was a small but notable tick up in popularity in 1979 for both spellings. In the mid to late 80s the Alyssa took off becoming signigicanlty more popular than the i spelling by far, until around until the early 2000s when both spelling began to decline in popularity.  Is this mid 80s boost in popularity possibly related to a hit TV show at the same time starring Alyssa Milano?  
+Further research on the subject may show how historical events and popculture can influence the popularity of a name.  Take my name for instance. My name spelled with an i is not as popular as spelled with a y, however both spellings started within a few years of each other.  Alissa was the most popular until around the 1960s and there was a small but notable tick up in popularity in 1979 for both spellings. In the mid to late 80s Alyssa took off becoming signigicanlty more popular than the i spelling by far, until the early 2000s when both spellings began to decline in popularity.  Is this mid 80s boost in popularity possibly related to a hit TV show at the same time starring Alyssa Milano?  
 
 ![Image](images/graph_Alissa-Alyssa.png)
