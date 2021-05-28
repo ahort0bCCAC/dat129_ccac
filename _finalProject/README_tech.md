@@ -14,8 +14,8 @@ Within this program you can update folder location of the files.
 ## Database Prep
 This program creates a database to store the data and run the queries using sqlite3. 
 After creating the database, the data is loaded from the files into normalized tables, with the exception of gender which is added from the program.
-The program reads each file, finds the name in the record and loads it to a names table.  The names table is contrained to unique records only, duplicates are ignored.
-The program reads each file again to load the full data details. A guery is used to find the gender id and name id from the newly created tables that match the gender code and name with each record in order to maintain data normalization.  The txt files do not inlcude the data year within the files, therefore the year data is extracted from the file name and loaded into the data table.
+The program reads each file, finds the name in the record and loads it to a names table.  The names table is constrained to unique records only, duplicates are ignored.
+The program reads each file again to load the full data details. A query is used to find the gender id and name id from the newly created tables that match the gender code and name with each record in order to maintain data normalization.  The txt files do not inlcude the data year within the files, therefore the year data is extracted from the file name and loaded into the data table.
 
 While working through creating/testing my code I created functions to drop the tables created in earlier steps so that I could reset the tables for additional run of the program.  These functions are still available if needed.
 
